@@ -13,8 +13,8 @@ PKG_VERSION:=1.0.0
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
-PKG_SOURCE_URL:=https://github.com/rsnzh/epson-inkjet-printer-filter/raw/master/$(PKG_SOURCE)
-PKG_MD5SUM:=6f4eed8e52bc06df5e6c09292cb766b7
+PKG_SOURCE_URL:=https://github.com/rsnzh/epson-inkjet-printer-201601w/raw/master
+PKG_MD5SUM:=0421c9effd98245c0ac4995f64ac7db1
 
 include $(INCLUDE_DIR)/package.mk
 
