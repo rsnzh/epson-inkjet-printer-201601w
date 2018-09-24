@@ -13,6 +13,7 @@ PKG_VERSION:=1.0.0
 PKG_RELEASE:=1
 
 PKG_SOURCE:=$(PKG_NAME)-$(PKG_VERSION).tar.gz
+
 PKG_SOURCE_URL:=https://github.com/rsnzh/epson-inkjet-printer-201601w/raw/master
 PKG_MD5SUM:=0421c9effd98245c0ac4995f64ac7db1
 
