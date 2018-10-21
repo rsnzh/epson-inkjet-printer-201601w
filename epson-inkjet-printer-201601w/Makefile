@@ -36,13 +36,6 @@ define Package/epson-inkjet-printer-201601w/description
 	L380 L382 Series - Epson Inkjet Printer Driver
 endef
  
-
-define Build/Configure
-	$(call Build/Configure/Default, \
-		UNAME="Linux" \
-	)
-endef
-
 define Package/epson-inkjet-printer-201601w/install
 	rm -rf $(1)/etc/epson
 	$(INSTALL_DIR) $(1)/etc/epson
